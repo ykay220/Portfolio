@@ -2,50 +2,70 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
+  
   }
+
+  html {
+    scroll-behavior: smooth; 
+}
 
   body{
       background-color: #d5e2eb;
   }
+  .border{
+    border: 2px solid #43b9b7;
+  }
 
 .color-nav{
    background-color: #d5e2eb;
-   border-top: 2px solid #43b9b7;
+   
+   
+   width: min(65%, 1280px);
+   margin: auto;
    
 }
 
 .navbar-brand{
-    color: #43b9b7;
+    color: #212529;
 }
 
 .navbar-brand:hover{
-    color: #43b9b7;
+    color: #212529;
 }
 
 .navbar-nav a{
-    color:#43b9b7;
+    color:#212529;
 }
 
 .navbar-nav a:hover{
-    color:#43b9b7;
+    color:#212529;
 }
 
 svg{
     font-size: 25px;
 }
 
+.banner-content{
+  width: min(65%, 1280px);
+  display: flex;
+  justify-content: space-between;
+  
+}
+
 .banner-wrap{
-    margin-top: 150px;
+    margin-top: 50px;
     background-color: #43b9b7;
     min-height: 400px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    padding-right: 400px;
+    /* padding-right: 400px; */
 }
 
 .banner-text{
-    width: 600px;
+    width: 500px;
+    align-self: center;
 }
 
 .banner-text h1{
@@ -54,7 +74,13 @@ svg{
     font-weight: bold;
 }
 
+.icons{
+  text-align: center;
+}
 
+.icons svg{
+  font-size: 50px;
+}
 
 .banner-img img{
    
@@ -62,12 +88,19 @@ svg{
     width: 250px;
 }
 
+.title {
+text-align: center;
+margin-top: 40px;
+padding-bottom: 50px;
+}
+
 .cards {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
-  width: min(95%, 1280px);
+  gap: 4rem;
+  width: min(65%, 1280px);
   margin:auto;
+  margin-bottom: 50px;
 }
 
 @media (min-width: 600px) {
@@ -76,17 +109,6 @@ svg{
   }
 }
 
-@media (min-width: 960px) {
-  .cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 1200px) {
-  .cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
 
 
 
@@ -109,12 +131,12 @@ svg{
   position: absolute;
   z-index: 10;
   width: 100%;
-  height: 300px;
+  height: 400px;
   transition: right 500ms ease-in-out;
   background: #d5e2eb;
   color: black;
   padding: 2rem;
-  padding-top: 50px;
+  padding-top: 130px;
   box-shadow:0 4px 6px rgb(0 0 0 / 30%);
   
 }
@@ -122,6 +144,7 @@ svg{
 .container{
     position: relative;
   overflow: hidden;
+  padding: 0;
 }
 
 .container:hover .showonhover {
@@ -134,20 +157,107 @@ svg{
 /*   max-width: 100%; */
   width: 100%;
 /*   height: auto; */
-  height: 300px;
+  height: 400px;
   display: block;
   object-fit: cover;
+  padding:7px;
 }
 
-
+.button-wrap{
+  padding-top: 20px;
+}
 .button-wrap  a{
- margin-right: 10px;
+ margin-right: 20px;
  border:2px solid #2f3d4c;
  text-decoration: none;
  cursor: pointer;
  border-radius: 4px;
  font-size: inheirt;
- padding: 0 11px;
+ padding: 5px 20px;
  color:#2f3d4c;
 
+}
+
+.show-content{
+  /* width: 90%;
+  font-size: 1.4rem; */
+  width: 60%;
+  margin: auto;
+  font-size: 1rem;
+}
+
+.footer-wrap{
+  
+  background-color: #43b9b7;
+  padding: 20px;
+}
+
+.footer-content{
+  width: min(65%, 1280px);
+  margin:auto;
+}
+
+.footer-text p{
+  margin: 0;
+
+}
+
+.footer-text{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skills-wrap{
+  background-color: #212529;
+  color: white;
+  padding: 30px;
+}
+
+.skills-content{
+  width: min(65%, 1280px);
+  margin:auto;
+}
+
+.skills-title{
+  padding-bottom:20px;
+}
+.skills-title h1 {
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 0;
+}
+
+.last-footer{
+  background-color: #212529;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.last-footer p {
+  margin: 0;
+  font-size: .9rem;
+}
+
+.last-footericons{
+  padding:20px;
+}
+.last-footericons svg{
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.absolute-title{
+  position: absolute;
+  padding: 5px;
+  text-align: center;
+  z-index: 1000;
+  background-color: #212529;
+  color: white;
+  width: 70%;
+  left: 20%;
+  top: 10%;
+  
 }

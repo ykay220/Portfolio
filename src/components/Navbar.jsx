@@ -4,8 +4,10 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Navbar() {
     return (
+      <>
+      <div className="border"></div>
         <div>
-             <ReactBootStrap.Navbar fixed="top" className="color-nav" collapseOnSelect expand="lg" variant="green" >
+             <ReactBootStrap.Navbar  className="color-nav" collapseOnSelect expand="lg" variant="green" >
   <ReactBootStrap.Navbar.Brand href="#home">yKarimi</ReactBootStrap.Navbar.Brand>
   <ReactBootStrap.Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
@@ -15,15 +17,16 @@ function Navbar() {
     </ReactBootStrap.Nav>
 
     <ReactBootStrap.Nav>
-      <ReactBootStrap.Nav.Link cl href="#deets"> <FaGithub/></ReactBootStrap.Nav.Link>
-      <ReactBootStrap.Nav.Link cl eventKey={2} href="#memes">
-      <FaLinkedin/>
+      <ReactBootStrap.Nav.Link cl href="#work-id">Work</ReactBootStrap.Nav.Link>
+      <ReactBootStrap.Nav.Link cl eventKey={2} href="#footer-id">
+      Contact
       </ReactBootStrap.Nav.Link>
 
     </ReactBootStrap.Nav>
   </ReactBootStrap.Navbar.Collapse>
 </ReactBootStrap.Navbar>
         </div>
+        </>
     )
 }
 

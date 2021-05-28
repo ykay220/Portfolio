@@ -3,20 +3,24 @@
    [
     {
         "id":1,
-        "image" :"/images/Car.jpg"
+        "name": "7 day Forecast",
+        "image" :"/images/forecastApp.png"
         
     },
     {
         "id":2,
-        "image" :"/images/Car.jpg"
+        "name": "Ecommerce ShoppingCart",
+        "image" :"/images/ecommerceApp.png"
     },
     {
         "id":3,
-        "image" :"/images/Car.jpg"
+        "name": "Covid Toronti District Data",
+        "image" :"/images/covidfrontApp.png"
     },
     {
         "id":4,
-        "image" :"/images/Car.jpg"
+        "name": "Showname Finder",
+        "image" :"/images/tvApp.png"
     }
 ]
 

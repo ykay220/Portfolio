@@ -3,6 +3,7 @@
 function Banner() {
     return (
         <div className="banner-wrap">
+            <div className="banner-content">
             <div className="banner-image">
                 <img src="/images/yams.jpg" alt="" />
             </div>
@@ -11,6 +12,7 @@ function Banner() {
                 <p>I'm Joe McGrath, a software engineer with a background in design, currently working at Webflow. I build highly scaleable web apps, contribute to open source, and write fiction in my spare time!</p>
 
 
+            </div>
             </div>
         </div>
     )
