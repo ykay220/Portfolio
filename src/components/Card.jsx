@@ -5,16 +5,19 @@ function Card(props) {
     return (
       <div className="container">
             <div className="card">
-                <div className="card-image">
+                <div className="card__image">
                     <img src={item.image} alt="" />
                 </div>
-            </div>  
+             
+
             <div className="showonhover">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde provident, quos eius doloremque odio culpa sapiente? Explicabo eius facere ipsa ullam eos voluptatem, dicta voluptas, commodi similique inventore deserunt necessitatibus.
 
                 <div className="button-wrap">
-                    <button>CODE</button>
-                    <button>SEE IT LIVE</button>
+                    <a href="https://www.google.com/">CODE</a>
+                    <a href="https://www.instagram.com/">LIVE</a>
+                </div>
+
                 </div>
             </div>
        </div>
