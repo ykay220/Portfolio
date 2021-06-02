@@ -5,7 +5,7 @@ function Banner() {
         <div className="banner-wrap">
             <div className="banner-content">
             <div className="banner-image">
-                <img src="/images/yams.jpg" alt="" />
+                <img  className="profile-image"src="/images/yams.jpg" alt="" />
             </div>
             <div className="banner-text">
                 <h1>Hello!</h1>

@@ -88,6 +88,10 @@ svg{
     width: 250px;
 }
 
+.profile-image{
+  max-width: 250px;
+}
+
 .title {
 text-align: center;
 margin-top: 40px;
