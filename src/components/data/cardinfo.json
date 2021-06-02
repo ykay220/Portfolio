@@ -6,6 +6,7 @@
         "name": "7 day Forecast",
         "image" :"/images/forecastApp.png",
         "url" : "https://weatherapp-yk.herokuapp.com//",
+        "des" : "A responsive app designed to display the current day and  7 day forecast of any city the user has searched for.I've utilized the framework react alongside using hooks such as useState and useEffect. Includes the framer-motion dependency for transistion effects",
         "git" : "https://github.com/ykay220/Weatherapp-5-day-forecast"
         
     },
@@ -14,6 +15,7 @@
         "name": "Ecommerce ShoppingCart",
         "image" :"/images/ecommerceApp.png",
         "url" : "https://ecommerce-yk.herokuapp.com/",
+        "des" : "A responsive ecommerce app that displays a shopping site for cars. I've used the react framework alongside react-router, using hooks suchs as useEffect and useState.",
         "git" : "https://github.com/ykay220/ecommerce"
     },
     {
@@ -21,6 +23,7 @@
         "name": "Covid Toronto District Data",
         "image" :"/images/covidfrontApp.png",
         "url" : "https://covid19-yk.herokuapp.com/",
+        "des" : "A responsive app that displays the current covd19 data of a choosen neighbourhood in Toronto. I've used axios to fetch call the api and also have implemnented chart.js to present the selected neighboour in a graph",
         "git" : "https://github.com/ykay220/Covid19-torontocaseApi"
     },
     {
@@ -28,6 +31,7 @@
         "name": "Showname Finder",
         "image" :"/images/tvApp.png",
         "url" : "https://tvshow-yk.herokuapp.com/",
+        "des" : "A responsive app made using the framework react that displays tvShows with what the user has searched for. I've used react components, and hooks such as useState and useEffect.",
         "git" : "https://github.com/ykay220/tvshow-app"
     }
 ]

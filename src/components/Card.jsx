@@ -14,7 +14,7 @@ function Card(props) {
 
             <div className="showonhover">
                 <div className="show-content">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde provident, quos eius doloremque odio culpa sapiente? Explicabo eius facere ipsa ullam eos voluptatem, dicta voluptas, commodi similique inventore deserunt necessitatibus.
+                    {item.desc}
 
                         <div className="button-wrap">
                             <a href={item.git}>CODE</a>
