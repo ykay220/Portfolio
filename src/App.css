@@ -113,34 +113,6 @@ padding-bottom: 50px;
   }
 }
 
-@media (max-width: 1225px) {
-  .banner-content{
-    flex-direction: column;
-  }
-
-  .banner-text h1{
-    text-align: center;
-  }
-
-  .profile-image{
-    padding-top: 20px;
-  }
-
-  .footer-text{
-    display: initial;
-  }
-  .show-content{
-    padding-top: 20px;
-    font-size: .8rem;
-  }
-
-  .banner-image{
-    display: flex;
-    justify-content: center;
-  }
-
-
-}
 
 
 
@@ -294,4 +266,36 @@ padding-bottom: 50px;
   left: 20%;
   top: 10%;
   
+}
+
+
+@media (max-width: 1225px) {
+  .banner-content{
+    flex-direction: column;
+  }
+
+  .banner-text h1{
+    text-align: center;
+  }
+
+  .profile-image{
+    padding-top: 20px;
+  }
+
+  .footer-text{
+    display: initial;
+  }
+  .show-content{
+    width: 100%;
+    margin: auto;
+    font-size: .9rem;
+    padding-top: 20px;
+  }
+
+  .banner-image{
+    display: flex;
+    justify-content: center;
+  }
+
+
 }
