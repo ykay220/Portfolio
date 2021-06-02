@@ -4,23 +4,31 @@
     {
         "id":1,
         "name": "7 day Forecast",
-        "image" :"/images/forecastApp.png"
+        "image" :"/images/forecastApp.png",
+        "url" : "https://weatherapp-yk.herokuapp.com//",
+        "git" : "https://github.com/ykay220/Weatherapp-5-day-forecast"
         
     },
     {
         "id":2,
         "name": "Ecommerce ShoppingCart",
-        "image" :"/images/ecommerceApp.png"
+        "image" :"/images/ecommerceApp.png",
+        "url" : "https://ecommerce-yk.herokuapp.com/",
+        "git" : "https://github.com/ykay220/ecommerce"
     },
     {
         "id":3,
         "name": "Covid Toronto District Data",
-        "image" :"/images/covidfrontApp.png"
+        "image" :"/images/covidfrontApp.png",
+        "url" : "https://covid19-yk.herokuapp.com/",
+        "git" : "https://github.com/ykay220/Covid19-torontocaseApi"
     },
     {
         "id":4,
         "name": "Showname Finder",
-        "image" :"/images/tvApp.png"
+        "image" :"/images/tvApp.png",
+        "url" : "https://tvshow-yk.herokuapp.com/",
+        "git" : "https://github.com/ykay220/tvshow-app"
     }
 ]
 
