@@ -14,7 +14,7 @@ function Card(props) {
 
             <div className="showonhover">
                 <div className="show-content">
-                    {item.desc}
+                    {item.des}
 
                         <div className="button-wrap">
                             <a href={item.git}>CODE</a>
