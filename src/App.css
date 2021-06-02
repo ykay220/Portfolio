@@ -113,6 +113,24 @@ padding-bottom: 50px;
   }
 }
 
+@media (max-width: 1225px) {
+  .banner-content{
+    flex-direction: column;
+  }
+
+  .banner-text h1{
+    text-align: center;
+  }
+
+  .profile-image{
+    padding-top: 20px;
+  }
+
+  .footer-text{
+    display: none;
+  }
+}
+
 
 
 
