@@ -127,11 +127,16 @@ padding-bottom: 50px;
   }
 
   .footer-text{
-    display: none;
+    display: initial;
   }
   .show-content{
     padding-top: 20px;
     font-size: .8rem;
+  }
+
+  .banner-image{
+    display: flex;
+    justify-content: center;
   }
 }
 
