@@ -20,7 +20,7 @@
     },
     {
         "id":3,
-        "name": "Covid Toronto District Data",
+        "name": "Covid District Data",
         "image" :"/images/covidfrontApp.png",
         "url" : "https://covid19-yk.herokuapp.com/",
         "des" : "A responsive app that displays the current covd19 data of a choosen neighbourhood in Toronto. I've used axios to fetch call the api and also have implemnented chart.js to present the selected neighboour in a graph",
