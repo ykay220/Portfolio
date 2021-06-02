@@ -129,6 +129,10 @@ padding-bottom: 50px;
   .footer-text{
     display: none;
   }
+  .show-content{
+    padding-top: 20px;
+    font-size: .8rem;
+  }
 }
 
 

@@ -6,7 +6,8 @@ function Lastfooter() {
         <div className="last-footer">
             <div className="lastfooter-content">
                 <div className="last-footericons">
-                    <FaGithub/> <FaLinkedin/>
+                    <a href="https://github.com/ykay220"><FaGithub/> </a>
+                    
                 </div>
                 <p>Copyright © Yama Karimi</p>
             </div>
