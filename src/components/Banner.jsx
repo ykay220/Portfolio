@@ -9,7 +9,9 @@ function Banner() {
             </div>
             <div className="banner-text">
                 <h1>Hello!</h1>
-                <p>I'm Joe McGrath, a software engineer with a background in design, currently working at Webflow. I build highly scaleable web apps, contribute to open source, and write fiction in my spare time!</p>
+                <p>I'm Yama Karimi, a  developer that loves to code for fun, and create visually appealing products. I build responsive web apps mainly in the frame-work react, and watch all tings mma in my spare time!</p>
+
+                <p> I've had the chance to expand my skillset by developing for shops.I'm an eager learner that's alway upto date in the newest tech and framework and!</p>
 
 
             </div>
