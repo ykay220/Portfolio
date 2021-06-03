@@ -299,3 +299,18 @@ padding-bottom: 50px;
 
 
 }
+
+@media (max-width: 510px) {
+.banner-text{
+  width: 350px;
+}
+
+.absolute-title h2{
+font-size: 1.5rem;
+}
+
+.show-content{
+  padding: 0;
+}
+
+}
