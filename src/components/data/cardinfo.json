@@ -23,7 +23,7 @@
         "name": "Covid District Data",
         "image" :"/images/covidfrontApp.png",
         "url" : "https://covid19-yk.herokuapp.com/",
-        "des" : "A responsive app that displays the current covd19 data of a choosen neighbourhood in Toronto. I've used axios to fetch call the api and also have implemnented chart.js to present the selected neighboour in a graph",
+        "des" : "A responsive app that displays the current covid-19 data of a choosen neighbourhood in Toronto. I've used axios to fetch call the api and also have implemented chart.js to present the selected neighboour in a graph",
         "git" : "https://github.com/ykay220/Covid19-torontocaseApi"
     },
     {
@@ -31,7 +31,7 @@
         "name": "Showname Finder",
         "image" :"/images/tvApp.png",
         "url" : "https://tvshow-yk.herokuapp.com/",
-        "des" : "A responsive app made using the framework react that displays tvShows with what the user has searched for. I've used react components, and hooks such as useState and useEffect.",
+        "des" : "A responsive app made using the framework react that displays tv shows with what the user has searched for. I've used react components, and hooks such as useState and useEffect.",
         "git" : "https://github.com/ykay220/tvshow-app"
     }
 ]
